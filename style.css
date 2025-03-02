@@ -7,47 +7,6 @@
 	list-style: none;
 	scroll-behavior: smooth;
 }
-
-/* Home Section Buttons */
-.home .button {
-    display: flex;
-    gap: 15px; /* Adjust the gap between buttons */
-    margin-top: 20px;
-}
-
-.home .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-    background: var(--main-color);
-    color: #fff;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-}
-
-.home .btn:hover {
-    background: #fff;
-    color: var(--main-color);
-    border: 1px solid var(--main-color);
-}
-
-.home .resume-btn {
-    background: #fff;
-    color: var(--main-color);
-    border: 1px solid var(--main-color);
-}
-
-.home .resume-btn:hover {
-    background: var(--main-color);
-    color: #fff;
-}
-
-.home .resume-btn i {
-    margin-right: 8px;
-}
 :root{
 	--bg-color: #2a2a2a;
 	--second-bg-color: #202020;
@@ -94,6 +53,56 @@ span{
 	font-weight: 500;
 	margin: 0 25px;
 	transition: all .45s ease;
+}
+
+/* Home Section Buttons */
+.home .button {
+    display: flex;
+    gap: 15px; /* Adjust the gap between buttons */
+    margin-top: 20px;
+}
+
+.home .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.home .btn:hover {
+    background: #fff;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+.home .resume-btn {
+    background: #fff;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+.home .resume-btn:hover {
+    background: var(--main-color);
+    color: #fff;
+}
+
+.home .resume-btn i {
+    margin-right: 8px;
+}
+
+
+/* Home Section Text Color */
+.home p {
+    color: #FFA500; /* Orange color */
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
 }
 .navlist a:hover{
 	color: var(--main-color);
@@ -568,3 +577,41 @@ form textarea{
 		top: 100%;
 	}
 }
+
+
+/* Thank You Message */
+#thankYouMessage {
+    text-align: center;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#thankYouMessage h3 {
+    color: #FFA500;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#thankYouMessage p {
+    color: #333;
+    font-size: 16px;
+}
+
+
+/* Home Section Text Styling */
+.home p {
+    color: #FFA500; /* Orange color */
+    font-size: 17px; /* Increase font size */
+    line-height: 1.1; /* Improve line spacing */
+    margin-top: 15px; /* Add some margin */
+     /* Limit text width for better readability */
+    text-align: left; /* Align text to the left */
+}
+
+.home p {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0); /* Subtle shadow */
+}
+
